@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hola, WebVR  - A Frame</title>
+  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+<body>
+
+<div class="contenedor-imagen-museo">
+  <a href="360visualer.html">
+    <img src="imagenes/muss.png" tittle ="visualizador">
+  </a>
+</div>
+
+  <a-assets>
+    <img id="Museo" crossorigin src="https://i.postimg.cc/63sVGzWY/Museo-del-Louvre-Street-View-360.jpg">
+  </a-assets>
+
+  <a-scene>
+  <a-sky src="#Museo"></a-sky>
+</a-scene>
+
+</body>
+</html>
